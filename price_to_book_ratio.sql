@@ -1,0 +1,15 @@
+create table if not exists price_to_book_ratio(
+ratio_code bigint not null,
+current_share varchar(255) null,
+value_per_share varchar(255) null,
+stock_price varchar(255) null,
+to_bank varchar(255) null,
+corresponding_asset varchar(255) null,
+sub_correspondence varchar(255) null,
+local_corrres varchar(255) null,
+company_base varchar(255) null,
+asset_base varchar(255) null,
+asset_class varchar(255) null,
+sub_asset_clase varchar(255) null,
+skyrocket_deal varchar(255) null,
+constraint price_to_book_ratio_pk primary key(ratio_code));
